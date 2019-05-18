@@ -33,10 +33,6 @@ Before running the code on IOS devieces, you have to build the tensorflow librar
 ## Demo
 A demo video can be found in [Demo video](https://www.youtube.com/watch?v=3JGynUHVRZo&feature=youtu.be).
 
-## Authors (In alphabetical order)
-* **Kung-Wen Yu** 
-* **Yu-Chun Yen** 
-
 ## Reference
 * [Tensorflow iOS Object Detection](https://github.com/csharpseattle/tensorflowiOS).
 * [TensorFlow Models](https://github.com/tensorflow/models).
