@@ -9,9 +9,9 @@ Before running the code on IOS devieces, you have to build the tensorflow librar
 ## Training Customized Obstacles
 * **Creating dataset**
   1. Label the customized data by using [labelImage](https://github.com/tzutalin/labelImg#macos) and you will get a bunch of .xml files.
-  2. Convert all .xml files to one .csv by implementing [xml_to_csv.py]().
-  3. Convert dataset to tfrecord by implementing [generate_tfrecord.py]().
-  4. Create a `label_map.pbtxt` file, an example can be found [here]().
+  2. Convert all .xml files to one .csv by implementing [xml_to_csv.py](https://github.com/kwyuyu/Walking_Navigator/blob/master/xml_to_csv.py).
+  3. Convert dataset to tfrecord by implementing [generate_tfrecord.py](https://github.com/kwyuyu/Walking_Navigator/blob/master/generate_tfrecord.py).
+  4. Create a `label_map.pbtxt` file, an example can be found [here](https://github.com/kwyuyu/Walking_Navigator/blob/master/WalkingNavigatorApp/Models/walking_detection/mscoco_label_map.txt).
 
 * **Training** 
   1. Download the [tensorflow models](https://github.com/tensorflow/models) and install all the [dependencies](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) for object detection.
