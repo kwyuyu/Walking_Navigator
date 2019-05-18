@@ -1,12 +1,12 @@
 # WalkingNavigator
 WalkingNavigator is an application that combines internet surfing, destination search, route planning, navigating, obstacle detection and avoidance, where obstacle detection is built by using [tensorflow object detection](https://github.com/tensorflow/models). The goal for WalkingNavigator is to help pedestrian walk safer and provide the functionality of browsing websites at the same time by providing voice/text navigation notification and obstacle alert (vibration in this application). When an obstacle is detected, the alarm will be triggered.
 
-Currently, we have four classes for object detection which are cars, stairs, ped xing, and humans's leg. We choose these classes as obstacle since these objects are common that people will be stumbled or occur accident. You can also customized the object detection which described in this <a href="object-detection">section</a>.
+Currently, we have four classes for object detection which are cars, stairs, ped xing, and humans's leg. We choose these classes as obstacle since these objects are common that people will be stumbled or occur accident. You can also customized the object detection which described in this [section](#Training-Customized-Obstacles).
 
 ## Before Installing WalkingNavigator
 Before running the code on IOS devieces, you have to build the tensorflow libraries for IOS. Following the instruction in [TensorFlow's Object Detection API](https://github.com/csharpseattle/tensorflowiOS).
 
-## [Training Customized Obstacles](#object-detection)
+## Training Customized Obstacles
 * **Creating dataset**
   1. Label the customized data by using [labelImage](https://github.com/tzutalin/labelImg#macos) and you will get a bunch of .xml files.
   2. Convert all .xml files to one .csv by implementing [xml_to_csv.py]().
