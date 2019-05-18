@@ -32,7 +32,7 @@ Before running the code on IOS devieces, you have to build the tensorflow librar
  
 ## Demo
 <p align="center">
-  <img src="./images/demo.gif" width="500">
+  <img src="./images/demo.gif" width="200">
 </p>
 
 A full version of demo video can be found in [Demo video](https://www.youtube.com/watch?v=3JGynUHVRZo&feature=youtu.be).
