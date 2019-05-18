@@ -31,7 +31,11 @@ Before running the code on IOS devieces, you have to build the tensorflow librar
   5. Export the model, [link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/exporting_models.md).
  
 ## Demo
-A demo video can be found in [Demo video](https://www.youtube.com/watch?v=3JGynUHVRZo&feature=youtu.be).
+<p align="center">
+  <img src="./images/demo.gif" width="500">
+</p>
+
+A full version of demo video can be found in [Demo video](https://www.youtube.com/watch?v=3JGynUHVRZo&feature=youtu.be).
 
 ## Reference
 * [Tensorflow iOS Object Detection](https://github.com/csharpseattle/tensorflowiOS).
