@@ -1,0 +1,23 @@
+item {
+	id: 1
+	name: 'stair'
+	display_name: 'stair'
+}
+
+item {
+	id: 2
+	name: 'car'
+	display_name: 'car'
+}
+
+item {
+	id: 3
+	name: 'crossing'
+	display_name: 'crossing'
+}
+
+item {
+	id: 4
+	name: 'leg'
+	display_name: 'leg'
+}
